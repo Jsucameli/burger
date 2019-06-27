@@ -5,7 +5,7 @@ CREATE DATABASE burger_db;
 USE burger_db;
 
 CREATE TABLE burgers (
-id int AUTO_INCRMENTING,
+id int AUTO INCAMENT not null,
 burger_name VARCHAR(255),
 devoured BOOLEAN,
 PRIMARY KEY (id)
